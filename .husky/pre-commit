@@ -1,1 +1,1 @@
-pnpm run build && pnpm run check-format
+pnpm run build && git add dist && pnpm run check-format
