@@ -1,0 +1,12 @@
+name: "Build global script dependencies"
+description: "Build global scripts to be hosted on a CDN, using the @single-spa/build-global-script-deps package"
+inputs:
+  global-scripts:
+    description: "The file path to an global scripts template file"
+    required: true
+  output-folder:
+    description: "The name of the output folder"
+    required: true
+runs:
+  using: "node20"
+  main: "dist/index.js"
