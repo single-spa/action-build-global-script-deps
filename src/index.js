@@ -33,5 +33,5 @@ if (
 
 await buildGlobalScripts({
   globalScripts: globalScriptsJson["global-scripts"],
-  outputDir: getInput("output-dir"),
+  outputDir: getInput("output-folder"),
 });
