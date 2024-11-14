@@ -27,5 +27,6 @@
   "dependencies": {
     "@actions/core": "^1.11.1",
     "@single-spa/build-global-script-deps": "^1.0.1"
-  }
+  },
+  "packageManager": "pnpm@9.13.0"
 }
