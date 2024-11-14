@@ -34616,7 +34616,7 @@ if (
 }
 
 await (0,_single_spa_build_global_script_deps__WEBPACK_IMPORTED_MODULE_1__/* .buildGlobalScripts */ .Q)({
-  globalScripts: globalScriptsJson,
+  globalScripts: globalScriptsJson['global-scripts'],
   outputDir: (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("output-dir"),
 });
 
